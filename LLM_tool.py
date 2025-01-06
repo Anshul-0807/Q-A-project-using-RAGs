@@ -258,7 +258,7 @@ st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 col1, col2,col3,col4,col5,col6 = st.columns(6)
 
 with col5:
-                my_logo = add_logo(logo_path="CampusX.jfif", width=100, height=20)
+                my_logo = add_logo(logo_path="body.jfif", width=100, height=20)
                 st.image(my_logo)
 with col6:
                 pg_logo=add_logo(logo_path="Q&A logo.jfif", width=60, height=40)
